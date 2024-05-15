@@ -1,0 +1,1008 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'uk' Physical Memory: 16281 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Game/2d/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50437
+Successfully changed project path to: D:/Game/2d/My project
+D:/Game/2d/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2084] Host "[IP] 192.168.31.62 [Port] 0 [Flags] 2 [Guid] 3008899864 [EditorId] 3008899864 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FAND9RH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2084] Host "[IP] 192.168.31.62 [Port] 0 [Flags] 2 [Guid] 3008899864 [EditorId] 3008899864 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FAND9RH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game/2d/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003141 seconds.
+- Loaded All Assemblies, in  0.281 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 512ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (232ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 1041ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (525ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.8 KB). Loaded Objects now: 4548.
+Memory consumption went from 137.7 MB to 137.5 MB.
+Total: 2.876800 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.303400 ms  DeleteObjects: 0.169300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1530121.492618 seconds.
+  path: Assets/2D Map Generator Tool/2D Map Generator Tool - ReadMe.pdf
+  artifactKey: Guid(1565a29f4e79167459b69638a74e8b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/2D Map Generator Tool - ReadMe.pdf using Guid(1565a29f4e79167459b69638a74e8b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c22cbce017f91d35ad6020504b52b64') in 0.008687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.158622 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)
+  artifactKey: Guid(e80d66d2f3649b346b6828f54957ee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator) using Guid(e80d66d2f3649b346b6828f54957ee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5bb490af2e94c0c938a578137ee5b2') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.448049 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator
+  artifactKey: Guid(d7c8081dd537d0342a7d53c665bffbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator using Guid(d7c8081dd537d0342a7d53c665bffbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd599289fa98bf4951dd853f2faef5db4') in 0.000346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.122834 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Extensions.cs
+  artifactKey: Guid(5de3ea1852085b946841b9db2859fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Extensions.cs using Guid(5de3ea1852085b946841b9db2859fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a450e3e8684db5510624df8e096875a7') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.423580 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators
+  artifactKey: Guid(72ba1c423a2029a4c898e0644c6c9586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators using Guid(72ba1c423a2029a4c898e0644c6c9586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bde25b253a4e6886a9edc1a797246d') in 0.000344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.958580 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators/Generator.cs
+  artifactKey: Guid(65d0e637b1b23e34392fc0eaabb1c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators/Generator.cs using Guid(65d0e637b1b23e34392fc0eaabb1c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa601242912369f068704b9e2d67c480') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.423052 seconds.
+  path: Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators/Tile Map Generation
+  artifactKey: Guid(18dada0b23e11b94b9ac832561945268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scripts (Map Generator)/Generator/Generators/Tile Map Generation using Guid(18dada0b23e11b94b9ac832561945268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab37c3a204c5e611a8ba11c1c4dc0fa') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.908901 seconds.
+  path: Assets/2D Map Generator Tool/Graphic
+  artifactKey: Guid(6be1de16c37677342b0bb0e14430a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic using Guid(6be1de16c37677342b0bb0e14430a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c169203e9b676710398e8d04e9cf7e6') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.742464 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects
+  artifactKey: Guid(d2153e5aea3b06a4f85fcd4768280f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects using Guid(d2153e5aea3b06a4f85fcd4768280f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91abe5a9b41f32eff20d65074c13d6c') in 0.000344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.175655 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Altar.png
+  artifactKey: Guid(330ea3d58fdf9dc429567d228cbca57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Altar.png using Guid(330ea3d58fdf9dc429567d228cbca57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a6e2ec94e264456220ef5a2bc29be4') in 0.076309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Trunk.png
+  artifactKey: Guid(cc551f39c1b91264d8cc76821729c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Trunk.png using Guid(cc551f39c1b91264d8cc76821729c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0586f7fe23e83a6047a42d646fa9933') in 0.015952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Building7.png
+  artifactKey: Guid(a5e5abdb795dca7469e1e0ada5a7d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Building7.png using Guid(a5e5abdb795dca7469e1e0ada5a7d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74987ec89c5f74954e6cb709a35c2a3') in 0.018785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Smithy.png
+  artifactKey: Guid(a44113f6706aa424399f3328e6f35df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Smithy.png using Guid(a44113f6706aa424399f3328e6f35df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ebf95953031208b8ead5ccc5facc1') in 0.017031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Stone.png
+  artifactKey: Guid(d9fc920a34de0a94a8e47dffc7eefa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Stone.png using Guid(d9fc920a34de0a94a8e47dffc7eefa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cb2983c707b68bbfa90e1fb00ebe99') in 0.015606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/DestroyedBuilding2.png
+  artifactKey: Guid(fdee938d46c3b5b4bba34b5dc2a86fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/DestroyedBuilding2.png using Guid(fdee938d46c3b5b4bba34b5dc2a86fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715b9c238a7ff6c3e0960b61179c8e2') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Stall2.png
+  artifactKey: Guid(31e2a7478f9c12f44b91835516f3eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Stall2.png using Guid(31e2a7478f9c12f44b91835516f3eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e56ce9ac4863b6e73e4fbc5c33ce4a') in 0.013880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Pyramid.png
+  artifactKey: Guid(9e3f13f6183ab8547ac6f2ee07300f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Pyramid.png using Guid(9e3f13f6183ab8547ac6f2ee07300f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f1f0f1f2cc21779db48ca0997bc8de') in 0.013787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Boards.png
+  artifactKey: Guid(d2cd0d259aa6ac341907bc9954d0ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Boards.png using Guid(d2cd0d259aa6ac341907bc9954d0ef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855d70286e703331b3b149afbe5d6406') in 0.013444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Caravan.png
+  artifactKey: Guid(2e1af5c6c3fa88b44b4cdeec7dd852ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Caravan.png using Guid(2e1af5c6c3fa88b44b4cdeec7dd852ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcfd436b7b0bb0cb844b5bb983e9150') in 0.015074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Stone3.png
+  artifactKey: Guid(95ee8bcabb277e8479214ec82608faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Stone3.png using Guid(95ee8bcabb277e8479214ec82608faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75211ef8ae81fade88fa5276a3d4cbd8') in 0.012582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/DestroyedBuildiong1.png
+  artifactKey: Guid(40ff15f016fd0eb4fa109fa9cfb7c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/DestroyedBuildiong1.png using Guid(40ff15f016fd0eb4fa109fa9cfb7c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382ee429398332f55d9695d68bf9c65') in 0.015260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Stone2.png
+  artifactKey: Guid(33e1ea0587450d1498a3a26628ee8cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Stone2.png using Guid(33e1ea0587450d1498a3a26628ee8cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa1910113a5577ec45700fe3dd129c7') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Platform.png
+  artifactKey: Guid(757317fbed5ba7f4db440df5912ec303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Platform.png using Guid(757317fbed5ba7f4db440df5912ec303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030a90ce8153bd5363b05100a47bf18a') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Graphic/Big Objects/Building6.png
+  artifactKey: Guid(2084199764ae1044abfbcdee2155bf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Graphic/Big Objects/Building6.png using Guid(2084199764ae1044abfbcdee2155bf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf6b278ab03c4ad9fafd1efc5c1625b') in 0.012540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.999369 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Barn.prefab
+  artifactKey: Guid(52cb4054659782b45a0faac0bde25544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Barn.prefab using Guid(52cb4054659782b45a0faac0bde25544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8476936e1c15d50b6b854e1bada4b75') in 0.080911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Stone3.prefab
+  artifactKey: Guid(322338960bf3e19488c68e94c03bfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Stone3.prefab using Guid(322338960bf3e19488c68e94c03bfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3285b123e64a2a10e079171afcdfa0c') in 0.011213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Building7.prefab
+  artifactKey: Guid(8ef97df0358da514da80073cd0731fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Building7.prefab using Guid(8ef97df0358da514da80073cd0731fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aeadd6965b99ec689d0a22904f67df') in 0.012621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Tent3.prefab
+  artifactKey: Guid(c465f4a7485ea344eb1367480ba91005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Tent3.prefab using Guid(c465f4a7485ea344eb1367480ba91005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e17367f036efe1415cb2bdcde112a8') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Sawmill.prefab
+  artifactKey: Guid(094634268ce62eb428828cf21a951390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Sawmill.prefab using Guid(094634268ce62eb428828cf21a951390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8c2feb6d9b592f9ea059b53702eb9e') in 0.011089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Tent2.prefab
+  artifactKey: Guid(92fcae39cc263f14dbf1b898b3f2d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Tent2.prefab using Guid(92fcae39cc263f14dbf1b898b3f2d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4af53348121d0bb280aaf73dfd850f') in 0.010131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Stall.prefab
+  artifactKey: Guid(cf812facf4389d64b95f9d4f07a3e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Stall.prefab using Guid(cf812facf4389d64b95f9d4f07a3e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc50b79c16cfdc8c857bfa1ebbe873c7') in 0.010360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Smithy.prefab
+  artifactKey: Guid(c760d21d5eb816b44878d965c0b9151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Smithy.prefab using Guid(c760d21d5eb816b44878d965c0b9151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea6d754d66399ea9dec28241b3f4374') in 0.010527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Big Objects/Building2.prefab
+  artifactKey: Guid(e80ea685802843d43b6dc9ca55e0a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Big Objects/Building2.prefab using Guid(e80ea685802843d43b6dc9ca55e0a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7910cddbdb414edc496de001101569cf') in 0.008811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.986110 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceBottomLeftInside.prefab
+  artifactKey: Guid(df56a6a626e22c24aae453b8a67d8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceBottomLeftInside.prefab using Guid(df56a6a626e22c24aae453b8a67d8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b483d4bcbc6482a8fdf99b52b770ac1e') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceBottomRight.prefab
+  artifactKey: Guid(235906f80df92bb4d9285e25b69e67cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceBottomRight.prefab using Guid(235906f80df92bb4d9285e25b69e67cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b9a770274a17a0ea4ff47bfb22169e') in 0.008654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceTopMiddle.prefab
+  artifactKey: Guid(9b8063155135cb94a8913d71c9ce596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceTopMiddle.prefab using Guid(9b8063155135cb94a8913d71c9ce596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e511bc3386d274d833f4a4f5f9618b') in 0.005266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceMiddleRight.prefab
+  artifactKey: Guid(b4d68733586033247bb9e6a7345e81e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Cmentary/CmentaryFanceMiddleRight.prefab using Guid(b4d68733586033247bb9e6a7345e81e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ea3b7dc4822540441f168c3fc6b83d') in 0.029488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.796561 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeBottomLeftInside.prefab
+  artifactKey: Guid(d9ed40b84df25ef49aeb577bc76d2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeBottomLeftInside.prefab using Guid(d9ed40b84df25ef49aeb577bc76d2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71aafaf9838a6f320d39f4f373b6ea9b') in 0.009288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeTopLeftInside.prefab
+  artifactKey: Guid(47a2ceeb6373d8c43858fd3b1814cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeTopLeftInside.prefab using Guid(47a2ceeb6373d8c43858fd3b1814cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3aa00200b81ffc4ce0c5d59c43e924') in 0.008550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeTopLeft.prefab
+  artifactKey: Guid(e7866dd9c9f2a134b8d0b49b6b73396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeTopLeft.prefab using Guid(e7866dd9c9f2a134b8d0b49b6b73396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eefeb6dbb79a1670f3b6d0e0aad4b92') in 0.011077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeBottomRight.prefab
+  artifactKey: Guid(f2603665203ede742932cbe13e1a4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Palisade/PalisadeBottomRight.prefab using Guid(f2603665203ede742932cbe13e1a4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31abfb94686156273896ce889172da23') in 0.008816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.123843 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallBottomLeftInside.prefab
+  artifactKey: Guid(ba1e3681b2aabd7428227b1ddb95326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallBottomLeftInside.prefab using Guid(ba1e3681b2aabd7428227b1ddb95326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe0840e12fe5144f9e53e6d6951f70f') in 0.008654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallTopMiddle.prefab
+  artifactKey: Guid(b6e32bc0c000fed4cac389fe59048056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallTopMiddle.prefab using Guid(b6e32bc0c000fed4cac389fe59048056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc9d1549d6180a77687146f22389e48') in 0.009432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallTopRightInside.prefab
+  artifactKey: Guid(7f5234fdd93fe9749b852fce5999192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallTopRightInside.prefab using Guid(7f5234fdd93fe9749b852fce5999192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34749ca3812c0bf30692c2930b5b418b') in 0.008461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallMiddleRight.prefab
+  artifactKey: Guid(5c44b80b9f08a104db2ac263dbea1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Stone Wall/StoneWallMiddleRight.prefab using Guid(5c44b80b9f08a104db2ac263dbea1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabd4c5ab8d72afbbd39971ce0dc9ee') in 0.009027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.602569 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallBottomLeftInside.prefab
+  artifactKey: Guid(dd199a7cfddb52d48b4f5207e64e4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallBottomLeftInside.prefab using Guid(dd199a7cfddb52d48b4f5207e64e4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d4f1159e37f931aeed2058de6c45f') in 0.008927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallMiddleLeft.prefab
+  artifactKey: Guid(0d5f416549af21e42886abac94c0f998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallMiddleLeft.prefab using Guid(0d5f416549af21e42886abac94c0f998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0e865ab8b53eaab87832f5f86ff8c9') in 0.009119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallBottomRight.prefab
+  artifactKey: Guid(fa7bb42c67375f940912a9180ec55ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallBottomRight.prefab using Guid(fa7bb42c67375f940912a9180ec55ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c313461728fe70811689864501acb7') in 0.008284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallTopLeft.prefab
+  artifactKey: Guid(4c07108de5f76894f91d8611668c0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wall/WallTopLeft.prefab using Guid(4c07108de5f76894f91d8611668c0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b37dfedd6cd419975891f01d5ee72e') in 0.008933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.470126 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceBottomLeftInside.prefab
+  artifactKey: Guid(b9531c3979e4e2940809f48c8684493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceBottomLeftInside.prefab using Guid(b9531c3979e4e2940809f48c8684493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39deefdf5a708093650c48a4f7e7d7d') in 0.008694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceBottomRight.prefab
+  artifactKey: Guid(7bb1b1c1798271b4f8c78cdad8605a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceBottomRight.prefab using Guid(7bb1b1c1798271b4f8c78cdad8605a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdbf05a46cda67f8766c52bba200c79') in 0.009309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceTopRightInside.prefab
+  artifactKey: Guid(a35ddaf001cc2dc4daa9401120310f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceTopRightInside.prefab using Guid(a35ddaf001cc2dc4daa9401120310f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd063f467b6953378d4cbf2f7f50a8557') in 0.008433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceTopMiddle.prefab
+  artifactKey: Guid(a06feda51ac4bb243b3f00a748ab3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Fence/Wooden Fence/WoodenFenceTopMiddle.prefab using Guid(a06feda51ac4bb243b3f00a748ab3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f621d1684bdb01dfb7fb789c43ee7d1') in 0.009258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.190991 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Bushes1.prefab
+  artifactKey: Guid(742f9d06b6fd6e24e950969a2c0e3838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Bushes1.prefab using Guid(742f9d06b6fd6e24e950969a2c0e3838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448b86995d24cf85928da0a0d15001e6') in 0.009410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Tomato.prefab
+  artifactKey: Guid(8054c44d7f04f4e4bb47853a61546ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Tomato.prefab using Guid(8054c44d7f04f4e4bb47853a61546ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1103dca0d3e464aef4e0a5158706c6') in 0.008420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Eggplant.prefab
+  artifactKey: Guid(bb22514a2f7c983429b8a72ae1e7ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Eggplant.prefab using Guid(bb22514a2f7c983429b8a72ae1e7ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c34d854da9dbd832a8dc272df0c476') in 0.008929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/SavannaGrass2.prefab
+  artifactKey: Guid(22c25d7a072d71247bba1639a902c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/SavannaGrass2.prefab using Guid(22c25d7a072d71247bba1639a902c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4d2674be8359e706a0190022d21797') in 0.008634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Plant.prefab
+  artifactKey: Guid(edf26659529aeb54f8e2e2777f8f695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Plant.prefab using Guid(edf26659529aeb54f8e2e2777f8f695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5309452ddc4691989f996a875f5930ba') in 0.008573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Grass3.prefab
+  artifactKey: Guid(f88302c43b73fed498eb68f0895c6c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Grass3.prefab using Guid(f88302c43b73fed498eb68f0895c6c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171d80cf87355b5f58bb6e6649b4eeaa') in 0.008986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/WaterLily.prefab
+  artifactKey: Guid(7b87497e337e5274180690eb1fccc67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/WaterLily.prefab using Guid(7b87497e337e5274180690eb1fccc67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdf9f11e720f5932b0d7f86c688bc23') in 0.008361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Plants/Grass1.prefab
+  artifactKey: Guid(e5390b9361a10444d9fe200157f16dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Plants/Grass1.prefab using Guid(e5390b9361a10444d9fe200157f16dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361a64e423510203f825a33b0e01c2fc') in 0.008447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 226.981986 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Desert.asset
+  artifactKey: Guid(d6b29b3bfe48c3447940e301db451979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Desert.asset using Guid(d6b29b3bfe48c3447940e301db451979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9c325aeae57ad353273839550d0b7c') in 0.020238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 322
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Savanna.asset
+  artifactKey: Guid(17b1462d524b72b46b2391b72df04c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Savanna.asset using Guid(17b1462d524b72b46b2391b72df04c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fe0fe4a190439f6d204d8946d11546') in 0.036161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 636
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Tropics.asset
+  artifactKey: Guid(cbb7567a1844b84438d040c6a7b8107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Tropics.asset using Guid(cbb7567a1844b84438d040c6a7b8107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dea9ac140a69515bdb0745f6356e74') in 0.044151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 690
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Forest.asset
+  artifactKey: Guid(dfbf4d41b55f54748b8335004ae42478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Forest.asset using Guid(dfbf4d41b55f54748b8335004ae42478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2cfbde8bfe279bc5013010135af9c') in 0.051523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 984
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Snow.asset
+  artifactKey: Guid(6825678a1b568a445a1d17ed9b498953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Snow.asset using Guid(6825678a1b568a445a1d17ed9b498953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f818c7bde11d646c779b881c2c9324') in 0.037611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 847
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/ShallowWater.asset
+  artifactKey: Guid(4ec7386c0a36f96429f82c2e11ebdc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/ShallowWater.asset using Guid(4ec7386c0a36f96429f82c2e11ebdc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff17d6b8b50adc01632efe61bb76c16') in 0.004553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Taiga.asset
+  artifactKey: Guid(a455208662179334f97661bad6b11f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Scriptable Objects/Biomes/Taiga.asset using Guid(a455208662179334f97661bad6b11f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba905786c5dfd3c29ef5c7ee8689b69f') in 0.020648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 432
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4573.
+Memory consumption went from 141.2 MB to 141.0 MB.
+Total: 2.763600 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.256900 ms  DeleteObjects: 0.154700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 967ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4577.
+Memory consumption went from 141.5 MB to 141.3 MB.
+Total: 2.621300 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.136400 ms  DeleteObjects: 0.135300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2433.744842 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects
+  artifactKey: Guid(bcdcbee6ef0f9c748b790d85a5d76250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects using Guid(bcdcbee6ef0f9c748b790d85a5d76250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1521d6ccd7e945b993c682261f3842') in 0.004626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052039 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Barrel.prefab
+  artifactKey: Guid(50ff3dc33c0eb9c4e840fb393036154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Barrel.prefab using Guid(50ff3dc33c0eb9c4e840fb393036154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e3f1687c570dfb96995e5b74029a83') in 0.059017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Shells.prefab
+  artifactKey: Guid(1c3c47706559e9d409fd75646d36a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Shells.prefab using Guid(1c3c47706559e9d409fd75646d36a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351e5e8ab5f9f7b0dd53d20b88641771') in 0.012097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Rock1.prefab
+  artifactKey: Guid(7ae5d8198be6f6b4d93d3cb376181e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Rock1.prefab using Guid(7ae5d8198be6f6b4d93d3cb376181e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aa7d3f246ab525a22ab41b462930ad') in 0.012092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Skeleton.prefab
+  artifactKey: Guid(2e9b181e63d246b468f908d91b70a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Skeleton.prefab using Guid(2e9b181e63d246b468f908d91b70a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b9d8328092b984119577a7045b45d0') in 0.010817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Lag.prefab
+  artifactKey: Guid(1b5f216980e48b14491522d94d7f98bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Lag.prefab using Guid(1b5f216980e48b14491522d94d7f98bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a832852c1cf638dffce96024550f17') in 0.010042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Grave2.prefab
+  artifactKey: Guid(dcd3de12de552da4fb5a871fc3ee34a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Grave2.prefab using Guid(dcd3de12de552da4fb5a871fc3ee34a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f98040216db5bae9f653c38cf27134') in 0.010829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Grave3.prefab
+  artifactKey: Guid(479989cf6dadac94ca54794e177ca263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Grave3.prefab using Guid(479989cf6dadac94ca54794e177ca263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b146f24a515a7e60d1937245fa3185') in 0.010399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Chest2.prefab
+  artifactKey: Guid(1a8888b6c15ff1e4985701f527cb6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Chest2.prefab using Guid(1a8888b6c15ff1e4985701f527cb6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4155a01da1e2848f5d34958904bb1a') in 0.010358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Pile.prefab
+  artifactKey: Guid(f2530e9802a73624f85c285ce94dcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Pile.prefab using Guid(f2530e9802a73624f85c285ce94dcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aad76df01fe5577acaccaed2aaa4247') in 0.008452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Destroyed cage.prefab
+  artifactKey: Guid(d61895febea916247b52fdf8ff4902a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Destroyed cage.prefab using Guid(d61895febea916247b52fdf8ff4902a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688ec587cfc2ef40f67ca92c5e785b2b') in 0.007716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Sign1.prefab
+  artifactKey: Guid(a5cff5c990405bb41b074e09896f1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Sign1.prefab using Guid(a5cff5c990405bb41b074e09896f1ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff410e4e452f15c8198807be55388838') in 0.009381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Target.prefab
+  artifactKey: Guid(621032499762dc64f98dc9205d57af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Target.prefab using Guid(621032499762dc64f98dc9205d57af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf24dcc398fb56a2e43b8b664157742a') in 0.009386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Sign2.prefab
+  artifactKey: Guid(2ae00dc6d8627dc46b36fc93bf59afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Sign2.prefab using Guid(2ae00dc6d8627dc46b36fc93bf59afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da65422707a254ace4612c9e90800d66') in 0.009392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/SandRock.prefab
+  artifactKey: Guid(4afb7ab93ccaa1e4c875797fb14f4e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/SandRock.prefab using Guid(4afb7ab93ccaa1e4c875797fb14f4e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d65152cb516ad9332474f1258f92bb6') in 0.009083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Map Generator Tool/Prefabs/Objects/Chest1.prefab
+  artifactKey: Guid(3dfaf574e8a784e4a8332d20a484ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Map Generator Tool/Prefabs/Objects/Chest1.prefab using Guid(3dfaf574e8a784e4a8332d20a484ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd8f087d1e387ff6061d6ec75138cf') in 0.009522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1148.615815 seconds.
+  path: Assets/3DNPC_Characters/Female_NPC/Female2.png
+  artifactKey: Guid(1cbba760933726240a53150673e705f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DNPC_Characters/Female_NPC/Female2.png using Guid(1cbba760933726240a53150673e705f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274d09b86d31dd7639de2963c93e4197') in 0.155914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 21.804596 seconds.
+  path: Assets/3DNPC_Characters/Male_NPC/Male2.png
+  artifactKey: Guid(106dc2a4656ddf74eb2dde2d94ccb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DNPC_Characters/Male_NPC/Male2.png using Guid(106dc2a4656ddf74eb2dde2d94ccb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51880cd13ac20b43f474fd33882e60c5') in 0.129542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
