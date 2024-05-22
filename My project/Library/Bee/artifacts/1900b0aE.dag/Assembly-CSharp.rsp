@@ -446,6 +446,9 @@
 "Assets/2D Map Generator Tool/Scripts (Map Generator)/Unity Port/Graphical Map Generation/Space  Orientation/SpaceOrientationFactory.cs"
 "Assets/2D Map Generator Tool/Scripts (Map Generator)/Unity Port/Graphical Map Generation/Space  Orientation/SpaceOrientationType.cs"
 "Assets/2D Map Generator Tool/Scripts (Map Generator)/Unity Port/MapGeneratorTool.cs"
+"Assets/Scripts/NPCCut.cs"
+"Assets/Scripts/ResourceCollection.cs"
+"Assets/Scripts/TreeObject.cs"
 -langversion:9.0
 
 /deterministic
