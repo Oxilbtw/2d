@@ -7,6 +7,7 @@ TagManager:
   - Male
   - Female
   - Tree
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Male
+  - Female
   - 
   - 
   - 
