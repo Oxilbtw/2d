@@ -3,22 +3,27 @@ using System.Collections;
 
 public class NPCMovement : MonoBehaviour
 {
-    public Transform[] patrolPoints; 
-    public float speed = 2f; 
+    public Transform[] patrolPoints;
+    public float speed = 2f;
     private int destPoint = 0;
     private Rigidbody2D rb;
     private bool waiting = false;
-    private Vector2 avoidanceDirection = Vector2.zero; 
+    private Vector2 avoidanceDirection = Vector2.zero;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); 
         GotoNextPoint();
     }
 
     public void SetAvoidanceDirection(Vector2 direction)
     {
         avoidanceDirection = direction;
+    }
+
+    public void StartPatrolling()
+    {
+        GotoNextPoint();
     }
 
     void GotoNextPoint()
@@ -37,16 +42,10 @@ public class NPCMovement : MonoBehaviour
         while (Vector2.Distance(transform.position, patrolPoints[destPoint].position) > 0.2f)
         {
             Vector2 direction = (patrolPoints[destPoint].position - transform.position).normalized;
-            
+
             direction += avoidanceDirection;
 
             rb.velocity = direction * speed;
-
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 0.5f);
-            if (hit.collider != null && hit.collider.CompareTag("Obstacle"))
-            {
-                rb.velocity = new Vector2(-direction.y, direction.x) * speed; 
-            }
 
             yield return null;
         }
@@ -67,7 +66,7 @@ public class NPCMovement : MonoBehaviour
     IEnumerator WaitBeforeNextPoint()
     {
         waiting = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         waiting = false;
         GotoNextPoint();
     }

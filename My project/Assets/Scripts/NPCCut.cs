@@ -8,6 +8,12 @@ public class NPCCut : MonoBehaviour
 
     private bool cutting = false;
     private Transform targetTree;
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>(); 
+    }
 
     void Update()
     {
@@ -17,7 +23,7 @@ public class NPCCut : MonoBehaviour
         }
         else if (!cutting && targetTree != null)
         {
-            MoveToTree(); 
+            MoveToTree();
         }
     }
 
@@ -43,7 +49,7 @@ public class NPCCut : MonoBehaviour
     void MoveToTree()
     {
         Vector2 direction = (targetTree.position - transform.position).normalized;
-        transform.Translate(direction * Time.deltaTime * speed);
+        rb.velocity = direction * speed;
 
         float distanceToTree = Vector2.Distance(transform.position, targetTree.position);
         if (distanceToTree < 0.2f)
