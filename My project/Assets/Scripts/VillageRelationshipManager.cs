@@ -3,39 +3,56 @@ using System.Collections.Generic;
 
 public class VillageRelationshipManager : MonoBehaviour
 {
-    public GameObject[] villages; 
-    public float maxRelationship = 100f; 
-    private Dictionary<GameObject, float> relationships = new Dictionary<GameObject, float>();
+    public GameObject[] villages;
+    public float minRelationship = -1f;
+    public float maxRelationship = 1f;
+    public float updateInterval = 20f;
+
+    private Dictionary<(GameObject, GameObject), float> relationships = new Dictionary<(GameObject, GameObject), float>();
+    private float lastUpdateTime = 0f;
 
     void Start()
     {
-        InitializeRelationships();
+        foreach (GameObject village1 in villages)
+        {
+            foreach (GameObject village2 in villages)
+            {
+                if (village1 != village2)
+                {
+                    relationships[(village1, village2)] = Random.Range(minRelationship, maxRelationship);
+                }
+            }
+        }
+
+        PrintRelationships();
     }
 
-    void InitializeRelationships()
+    void Update()
     {
-        foreach (GameObject village in villages)
+        if (Time.time - lastUpdateTime >= updateInterval)
         {
-            float relationship = Random.Range(0f, maxRelationship);
-            relationships[village] = relationship;
+            UpdateRelationships();
+            lastUpdateTime = Time.time;
         }
     }
 
-    public float GetRelationship(GameObject village)
+    void UpdateRelationships()
     {
-        return relationships[village];
+        foreach (var key in relationships.Keys)
+        {
+            float change = Random.Range(-0.1f, 0.1f); // Рандомне зміщення відношень
+            relationships[key] += change;
+            relationships[key] = Mathf.Clamp(relationships[key], minRelationship, maxRelationship);
+        }
+
+        PrintRelationships();
     }
 
-    public void ChangeRelationship(GameObject village, float amount)
+    void PrintRelationships()
     {
-        relationships[village] += amount;
-
-        relationships[village] = Mathf.Clamp(relationships[village], 0f, maxRelationship);
-    }
-
-    public float CalculateAggression(GameObject village)
-    {
-        float aggression = Mathf.Clamp01(relationships[village] / maxRelationship);
-        return aggression;
+        foreach (var kvp in relationships)
+        {
+            Debug.Log(kvp.Key.Item1.name + " та " + kvp.Key.Item2.name + ": " + kvp.Value);
+        }
     }
 }
